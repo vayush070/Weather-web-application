@@ -1,0 +1,63 @@
+.body{
+    color: rgb(185, 185, 185);
+
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 16px;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/img/background_weather.jpg");
+    background-size: cover;
+}
+
+.content{
+    flex-grow: 1;
+}
+
+footer{
+    background: rgb(228, 228, 228);
+    border-top: 2px solid rgb(122, 122, 122);
+    padding: 16px 8px;
+    margin-top: 16px;
+    color: grey;
+    opacity: 0.4;
+}
+
+h1{
+    font-size: 65px;
+}
+
+header a{
+    font-size: 29px;
+    color: rgb(150, 150, 150);
+    padding: 10px;
+    text-decoration: none;
+}
+.portrait{
+    max-width: 300px;
+    max-height: 500px;
+}
+
+
+input{
+    border:2px solid  rgb(138, 138, 138);
+    padding: 5px;
+}
+
+button{
+    cursor: pointer;
+    background-color: grey;
+    border: 2px solid rgb(90, 89, 89);
+    color: white;
+    padding: 5px;
+}
+
+#m1,#m2{
+    color: white;
+}
