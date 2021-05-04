@@ -61,3 +61,8 @@ button{
 #m1,#m2{
     color: white;
 }
+
+.link{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
